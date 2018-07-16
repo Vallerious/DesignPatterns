@@ -47,7 +47,8 @@ public class EmployeeFromLDAP {
 
 	@Override
 	public String toString() {
-		return "ID: " + this.cn + ", First Name: " + this.givenName + ". Last name: " + this.surname + ", Email: " + this.mail;
+		return "ID: " + this.getCn() + ", First Name: " + this.getGivenName() +
+				". Last name: " + this.getSurname() + ", Email: " + this.getMail();
 	}
 	
 }

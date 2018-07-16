@@ -21,6 +21,21 @@ public class EmployeeClient {
 		 */
 		employees.add(new EmployeeAdapterLDAP(employeeFromLDAP));
 		
+		EmployeeCSV employeeCsv = new EmployeeCSV("1, Ivan, Petrov, ivan@gmail.com");
+		
+		/*
+		 * 1. We do not have to know in advance what type of classes we will have,
+		 * we can create a adapter that can adapt the class to the interface.
+		 * 
+		 * 2. It helps adapt multiple systems together.
+		 * 
+		 * 3. Used for legacy code to fit with new code.
+		 * 
+		 * 4. Works by composition - the adaptee is residing into the adapter and 
+		 * the adapter transforms and bends it to fit some interface.
+		 */
+		employees.add(new EmployeeCSVAdapter(employeeCsv));
+		
 		return employees;
 	}
 }
