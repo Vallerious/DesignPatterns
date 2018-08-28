@@ -17,7 +17,7 @@ public class BridgeDemo {
 		 * Examples: Drivers, JDBC
 		 */
 		// Here we are using an derby embedded driver
-		// The driver should implement a specific interface so that the drivermanager can work with it
+		// The driver should implement a specific interface so that the drivermanager
 		// so the driver manager can work with every driver which implements the interface.
 //		DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
 //
