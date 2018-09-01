@@ -1,5 +1,13 @@
 package structural.adapter.employees;
 
+/**
+ * Adaptor
+ * 
+ * This class adapts the EmployeeFromLDAP to the Employee Interface
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EmployeeAdapterLDAP implements Employee {
 	private EmployeeFromLDAP instance;
 	
@@ -9,6 +17,7 @@ public class EmployeeAdapterLDAP implements Employee {
 
 	@Override
 	public String getId() {
+	    /* Here we are proxying the id property to the incompatible property */
 		return this.instance.getCn();
 	}
 

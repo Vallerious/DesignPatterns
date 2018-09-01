@@ -2,10 +2,19 @@ package structural.adapter.employees;
 
 import java.util.StringTokenizer;
 
+/**
+ * Adaptee
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EmployeeCSV {
 	private int id;
+	
 	private String firstname;
+	
 	private String lastname;
+	
 	private String emailAddress;
 	
 	public EmployeeCSV(String values) {

@@ -2,6 +2,12 @@ package structural.bridge.movies;
 
 import java.util.List;
 
+/**
+ * Implementor 1
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class PrintFormatter implements Formatter {
 
 	@Override

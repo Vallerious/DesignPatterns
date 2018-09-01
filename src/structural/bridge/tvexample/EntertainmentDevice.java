@@ -1,6 +1,6 @@
 package structural.bridge.tvexample;
 
-// Implementer
+// Implementor
 public abstract class EntertainmentDevice {
 	public int deviceState;
 	

@@ -1,9 +1,18 @@
 package structural.adapter.employees;
 
+/**
+ * Adaptee
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EmployeeFromLDAP {
 	private String cn;
+	
 	private String surname;
+	
 	private String givenName;
+	
 	private String mail;
 	
 	public EmployeeFromLDAP(String cn, String surname, String givenName, String mail) {

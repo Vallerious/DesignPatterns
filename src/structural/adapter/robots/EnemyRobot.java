@@ -1,5 +1,11 @@
 package structural.adapter.robots;
 
+/**
+ * Adaptee
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EnemyRobot {
 	public void smashWithHands() {
 		System.out.println("Smash with hands smash smash!");

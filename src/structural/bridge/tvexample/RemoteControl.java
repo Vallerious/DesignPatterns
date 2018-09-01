@@ -9,6 +9,7 @@ public abstract class RemoteControl {
 	}
 	
 	public void buttonFivePressed() {
+	    // Here we are bridging the button press
 		this.entertainmentDevice.buttonFivePressed();
 	}
 	
@@ -20,5 +21,8 @@ public abstract class RemoteControl {
 		this.entertainmentDevice.deviceFeedback();
 	}
 	
+	/*
+	 * We leave the varying method unimplemented
+	 */
 	public abstract void buttonNinePressed();
 }

@@ -2,6 +2,12 @@ package structural.bridge.movies;
 
 import java.util.List;
 
+/**
+ * Implementor 2
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class HtmlFormatter implements Formatter {
 
 	@Override

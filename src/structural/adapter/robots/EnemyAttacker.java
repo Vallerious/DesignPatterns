@@ -1,5 +1,11 @@
 package structural.adapter.robots;
 
+/**
+ * Target
+ * 
+ * @author valerivaleriev
+ *
+ */
 public interface EnemyAttacker {
 	public void fireWeapon();
 	

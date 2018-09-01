@@ -1,6 +1,6 @@
 package structural.bridge.tvexample;
 
-// Concrete implementer
+// Implementor 2
 public class TVDevice extends EntertainmentDevice {
 	
 	public TVDevice(int newDeviceState, int newMaxSetting) {

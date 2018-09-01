@@ -1,5 +1,11 @@
 package structural.adapter.employees;
 
+/**
+ * Adaptor
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EmployeeCSVAdapter implements Employee {
 	private EmployeeCSV instance;
 	

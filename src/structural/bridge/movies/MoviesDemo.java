@@ -1,14 +1,22 @@
 package structural.bridge.movies;
 
+/**
+ * This class gives an example of the bridge pattern
+ * 
+ * We have different types of headers and different types of formatting of the rows.
+ * If we decide to create class for each cartesian pair that would cost us a lot.
+ * 
+ * Instead, we create an abstraction that takes a movie and a formatter.
+ * We can create different formatters that will create different representation of data.
+ * We can create different printers that will extract and create headers in a varying ways. :)
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class MoviesDemo {
 
 	public static void main(String[] args) {
-		Movie movie = new Movie();
-		movie.setClassification("Drama");
-		movie.setRuntime("2:30");
-		movie.setTitle("Blue Velvet");
-		movie.setYear("2018");
-		
+		Movie movie = new Movie("Drama", "2:30", "Blue Velvet", "2018");
 		
 		/*
 		 * It is kinda similar to the thing happening in the driver manager example....

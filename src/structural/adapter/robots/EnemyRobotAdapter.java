@@ -1,5 +1,11 @@
 package structural.adapter.robots;
 
+/**
+ * Adaptor
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class EnemyRobotAdapter implements EnemyAttacker {
 	
 	private EnemyRobot enemyRobot;

@@ -3,6 +3,12 @@ package structural.bridge.movies;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Abstraction 1
+ * 
+ * @author valerivaleriev
+ *
+ */
 public class MoviePrinter extends Printer {
 	private Movie movie;
 	

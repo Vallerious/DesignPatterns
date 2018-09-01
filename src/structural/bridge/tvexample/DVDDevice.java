@@ -1,5 +1,6 @@
 package structural.bridge.tvexample;
 
+// Implementor 1
 public class DVDDevice extends EntertainmentDevice {
 
 	public DVDDevice(int newDeviceState, int newMaxSetting) {
