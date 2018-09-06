@@ -3,6 +3,16 @@ package structural.flyweight.bmw;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Flyweight Factory
+ * 
+ * Caches the objects so that we do not have to keep in memory instances with same data.
+ * If, for example we have a factory for manifacturing cars we do not want to keep track of all the 
+ * sales of cars
+ * 
+ * @author valerivaleriev
+ *
+ */
 class BMWSerieFlyWeightFactory implements BMWCarFlyWeightFactory {
   private Map<Model, BMWCar> cache = new HashMap<>();
 
